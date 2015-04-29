@@ -1,0 +1,306 @@
+body { /* to ensure that there are no white borders around web page */
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+#title{
+	margin: 0;
+	margin-left:2%;
+	color: #7fffd4;
+	font-size:450%;
+	font-family: chalkboard;
+	font-weight: bold;
+	font-border: blue;
+}
+
+#background {
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	margin-top: 0px;
+	background:url("../images/homepage1.png") no-repeat center center;
+	background-size: 85%;
+}
+
+#subtitle{/*scars*/
+	font-size:20px;
+	color:#b1b1b1;
+	margin-top:17%;
+	margin-left:22%;
+	margin-bottom:2px;
+	font-family:Lato;
+	background-position:fixed;
+}
+#poem{/*poem*/
+	height:300px;
+	width:300px;
+	font-size:15px;
+	margin-top:1%;
+	margin-left:13%;
+	color:#b1b1b1;
+	margin-bottom:0%;
+	font-family:Lato;
+	background-position:fixed;
+}
+.author{/*author*/
+	font-size:14px;
+	margin-top:-5%;
+	margin-left:22%;
+	color:#b1b1b1;
+	margin-bottom:5px;
+	font-family:Lato;
+	background-position:fixed;	
+}
+
+.panel_left{ /* defines dimension of left half of the screen */
+    margin:0;
+    padding:0;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 50%;
+}
+
+.panel_right { /* defines dimension of right half of the screen */
+	margin:0;
+	padding:0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+}
+
+.panel { /* defines dimension of each individual panel */
+    width: 100%;
+    height:100%;
+}
+
+
+/* start of colors of each panel */
+#pane-1_L{
+	background-color:black;
+
+  }
+ 
+
+#pane-2_L {
+  	background:url("../images/blackwood2.jpg") no-repeat center center;
+  	background-size:cover;
+}
+
+#mom{
+ 	padding-top:15%;
+ 	margin-left:15%;
+ }
+
+#pane-3_L {
+	background:url("../images/hydrangas2.jpg") no-repeat center center;
+    background-size:cover;
+
+}
+
+#rob_text{
+	color:black;
+	font-family: Georgia;
+	font-size:15px;
+	padding-left:15%;
+	padding-top:15%;
+	padding-right:15%;
+	padding-bottom:15%;
+	text-indent: 30px;
+
+}
+.robBackground{
+		background: rgba(255, 250, 240, 0.7);
+		padding:5%;
+}
+
+
+
+#pane-4_L{
+	background:url("../images/blackwood2.jpg") no-repeat center center;
+    background-size:cover;
+    
+}
+#Lindsay{
+	padding-top:15%;
+	padding-left:15%;
+	-webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+#pane-5_L{
+	background:url("../images/pinkWall2.jpg") no-repeat center center;
+    background-size:cover;
+  
+}
+#Will_text{
+	height:400px;
+	width:500px;
+	padding-top:15%;
+	padding-left:5%;
+	text-indent: 30px;
+}
+.willBackground{
+	background: rgba(255, 250, 240, 0.6);
+	padding:2%;
+}
+
+#pane-6_L{
+	background-color:blue;
+}
+
+#pane-7_L{
+	background-color:yellow;
+}
+#pane-8_L{
+	background-color:blue;
+}
+#pane-9_L{
+	background-color:yellow;
+}
+
+#pane-10_L{
+	background-color:blue;
+}
+#pane-11_L{
+	background-color:yellow;
+}
+#pane-12_L{
+	background-color:blue;
+}
+#pane-13_L{
+}
+#pane-14_L{
+	background-color:yellow;
+}
+#pane-15_L{
+	background-color:blue;
+}
+#pane-16_L{
+	background-color:yellow;
+}
+#pane-17_L{
+	background-color:blue;
+}
+
+	
+
+/* start of colors of each panel */
+#pane-1_R{
+	background:url("../images/blackwood2.jpg") no-repeat center center;
+    background-size:cover;
+  
+}
+#Will{
+	padding-top:10%;
+	padding-left:15%;
+	-webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+
+}
+
+#pane-2_R {
+	background:url("../images/seafoam4.jpg") no-repeat center center;
+    background-size:cover;
+
+}
+#Lindsay_text{
+	height:400px;
+	width:500px;
+	padding-top:15%;
+	padding-right:5%;
+	padding-left:15%;
+	text-indent:30px;
+}
+.lindsayBackground{
+	background: rgba(255, 250, 240, 0.6);
+	padding:2%;
+}
+
+#pane-3_R {
+	background:url("../images/blackwood2.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+#rob{
+	padding-top:15%;
+	padding-left:5%;
+	position:relative;
+}
+
+#pane-4_R{
+	background:url("../images/seafoam1.jpg") no-repeat center center;
+    background-size:cover;
+
+}
+#mom_text{
+	color:black;
+	background-color:rgb(255,255,255,0.7);
+	font-family: Georgia;
+	font-size:15px;
+	padding-left:15%;
+	padding-top:15%;
+	padding-right:15%;
+	padding-bottom:15%;
+	text-indent: 30px;
+}
+
+#pane-5_R{
+	margin-top:0;
+	padding:0;
+    background-color:black;
+}
+
+#pane-6_R{
+	background-color:green;
+}
+
+#pane-7_R{
+	background-color:red;
+}
+#pane-8_R{
+	background-color:green;
+}
+#pane-9_R{
+	background-color:red;
+}
+#pane-10_R{
+	background-color:green;
+}
+#pane-11_R{
+	background-color:red;
+}
+#pane-12_R{
+	background-color:green;
+}
+#pane-13_R{
+	background-color:red;
+}
+#pane-14_R{
+	background-color:green;
+}
+#pane-15_R{
+	background-color:red;
+}
+#pane-16_R{
+	background-color:green;
+}
+#pane-17_R{
+	background-color:red;
+}
+
+#pane-18_R{
+	background-color:green;
+}
+/* end of colors of each left panel */
+
