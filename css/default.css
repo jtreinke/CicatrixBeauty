@@ -21,7 +21,7 @@ body { /* to ensure that there are no white borders around web page */
 	height: 100%;
 	z-index: 9;
 	margin-top: 0px;
-	background:url("../images/homepage1.png") no-repeat center center;
+	background:url("../images/homepage2.jpg") no-repeat center center;
 	background-size: 85%;
 }
 
