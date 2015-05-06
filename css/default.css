@@ -329,7 +329,7 @@ body { /* to ensure that there are no white borders around web page */
     background-size:cover;
 }
 #pane-17_L{
-	background:url("../images/pinkbike.jpg") no-repeat center center;
+	background:url("../images/pinkBike.jpg") no-repeat center center;
     background-size:cover;
 }
 #katie_text{
@@ -570,7 +570,7 @@ body { /* to ensure that there are no white borders around web page */
     transform: rotate(2deg);
 }
 #pane-15_R{
-	background:url("../images/beachFlamingo2.jpg") no-repeat center center;
+	background:url("../images/beachFLamingo2.jpg") no-repeat center center;
     background-size:cover;
 }
 #shoumith_text{
